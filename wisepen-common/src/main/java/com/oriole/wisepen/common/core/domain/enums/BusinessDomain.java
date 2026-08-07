@@ -11,7 +11,8 @@ public enum BusinessDomain {
     NOTE,
     AI_RESOURCE,
     STORAGE,
-    FUDAN_EXTENSION;
+    FUDAN_EXTENSION,
+    QUESTIONNAIRE;
 
     public String key() {
         return name().toLowerCase(Locale.ROOT);
